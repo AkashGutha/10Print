@@ -36,3 +36,7 @@ then run
 ```
 ts-node 10Print.ts
 ```
+**For python**
+```
+python 10Print.py
+```
