@@ -1,7 +1,10 @@
 # 10Print
 
-the famous 10 print in various languages
+the infamous Commodore 64 BASIC program called __10 print__ in various languages
 
+# Result
+
+![10 Print in p5.js Image](https://github.com/AkashGutha/10Print/blob/master/10Print.PNG "10 Print in p5.js")
 
 # Usage
 
