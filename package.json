@@ -1,0 +1,24 @@
+{
+  "name": "10print",
+  "version": "1.0.0",
+  "description": "The infamous 10Print in vaarious languages",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkashGutha/10Print.git"
+  },
+  "keywords": [
+    "10Print",
+    "creative",
+    "code"
+  ],
+  "author": "AkashGutha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AkashGutha/10Print/issues"
+  },
+  "homepage": "https://github.com/AkashGutha/10Print#readme"
+}
