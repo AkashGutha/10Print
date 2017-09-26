@@ -2,3 +2,5 @@
 .DS_Store
 
 .exe
+
+node_modules
