@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/AkashGutha/10Print/issues"
   },
-  "homepage": "https://github.com/AkashGutha/10Print#readme"
+  "homepage": "https://github.com/AkashGutha/10Print#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.31"
+  }
 }

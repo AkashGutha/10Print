@@ -1,13 +1,13 @@
-let iterations: number = 1 << 16;
+let iters: number = 1 << 16;
 
-let random: number = Math.random();
-let Debug: Console = process.stdout;
+let rand: number = Math.random();
+let debug = process.stdout;
 
-while (iterations > 0) {
-  random = Math.random();
+while (iters > 0) {
+  rand = Math.random();
 
-  if (random <= 0.5) console.write("/");
-  else console.write("\\");
+  if (rand <= 0.5) debug.write("/");
+  else debug.write("\\");
 
-  iterations--;
+  iters--;
 }
