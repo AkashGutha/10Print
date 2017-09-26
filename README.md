@@ -40,3 +40,7 @@ ts-node 10Print.ts
 ```
 python 10Print.py
 ```
+**Fopr p5.js example**
+```
+Open 10Print.html in your browser
+```
