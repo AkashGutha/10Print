@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>10Print</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            position: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="./libraries/p5.js"></script>
+    <script>
+        var spacing = 50;
+        var x = 0;
+        var y = 0;
+        var SIZE = 10;
+
+        function setup() {
+            var canvas = createCanvas(screen.width, screen.height);
+            background(248, 131, 121);
+        }
+        function draw() {
+            if (y > canvas.height) {
+                return;
+            }
+            if (x > canvas.width) {
+                x = 0;
+                y += spacing;
+            }
+
+            stroke(248, 231, 221);
+            strokeWeight(SIZE);
+            strokeJoin(BEVEL);
+            strokeCap(SQUARE);
+
+            if (Math.random() > 0.5) {
+                line(x, y, x + spacing, y + spacing);
+            } else {
+                line(x, y + spacing, x + spacing, y);
+            }
+            console.log(x, y);
+            x += spacing;
+        }
+    </script>
+
+</body>
+
+</html>
