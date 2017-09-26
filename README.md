@@ -7,6 +7,12 @@ the famous 10 print in various languages
 
 For CSharp or C#
 
-```bat 
+``` 
 csc 10Print.cs && 10Print.exe
+```
+
+For Javascript
+
+```
+node 10Print.js
 ```
